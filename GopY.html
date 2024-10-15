@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="GopY.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+          <div class= "img"><img src="1200x600-4.png" alt="Logo FPT Polytechnic"></div>
+          <h1>Chào mừng đến với FPT Polytechnic</h1>
+        </div>
+      </header>
+      <div class="top-right">
+        <a href="Login">Đăng nhập</a>
+        <a href="Login">Đăng ký</a>
+        <a href="Login">Quên mật khẩu</a>
+      </div>
+    
+      <!-- Navigation -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li class="dropdown">
+            <a href="#">Giới thiệu</a>
+            <ul class="dropdown-content">
+              <li><a href = "Sodotochuc.html">Sơ đồ tổ chức</a></li>
+              <li><a href = "Thuvien.html">Thư viện</a></li>
+            </ul>
+          </li>
+          <li><a href="LienHe.html">Liên hệ</a></li>
+          <li><a href="GopY.html">Góp ý</a></li>
+          <li><a href="Hoi&dap.html">Hỏi & đáp</a></li>
+        </ul>
+      </nav>
+      <div class="feedback-container">
+        <h2>Góp Ý</h2>
+        <form action="#success-message" class="feedback-form">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" required placeholder="Nhập họ và tên">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Nhập email của bạn">
+
+            <label for="message">Nội dung góp ý:</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Nhập nội dung góp ý của bạn"></textarea>
+
+            <button type="submit">Gửi góp ý</button>
+        </form>
+
+        <!-- Thông báo thành công -->
+        <div id="success-message" class="success-message">
+            <p>Đã gửi góp ý thành công!</p>
+            <a href="#form-start">Quay lại</a>
+        </div>
+    </div>
+      <footer>
+        <h1>Cao Đẳng Fpt Polytechnic</h1>   
+        </div>
+        <div class="footer-content">
+          <p>&copy; 2024 FPT Polytechnic. All Rights Reserved.</p>
+          <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">YouTube</a>
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+        <div class = "tt">
+          <p>THÔNG TIN LIÊN HỆ</p>
+          <p>Điện thoại: (024) 7300 1955</p>
+          <p>Email: caodang@fpt.edu.vn</p>
+        </div>
+      </footer>     
+</body>
+</html>

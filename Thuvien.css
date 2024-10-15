@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8e7e4;
+   
+}
+  .header-container img {
+    width: -webkit-fill-available;
+    margin-left: 0%;
+}
+  
+  /* Header */
+.header-container {
+    background-color: #ff6a06;
+    color: white;
+    text-align: center;
+  
+}
+.top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: orangered;
+    padding: 10px;
+    box-shadow: 0 5px 5px gray;
+}
+.top-right a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-variant: small-caps;
+    margin-left: 20px;
+}
+.top-right > a:hover{
+    text-decoration: underline;
+}
+  h1 {
+    margin: 0;
+}
+  
+  /* Navigation */
+nav {
+    background-color: #ff6b08;
+    padding: 10px;
+}
+  
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  
+.nav-links li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+  
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+.nav-links a:hover {
+    text-decoration: underline;
+}
+  
+  /* Dropdown Menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff3131;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    right: -60%;
+  
+}
+  
+.dropdown-content li {
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+  .dropdown-content a:hover{
+    text-decoration: underline;
+    color:aliceblue
+}
+  /* Show Dropdown on Hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin-left: 120px;
+    color:#ff6b08 
+}
+aside{
+    text-align: center;
+    font-size: 16px;
+}
+.tt {
+    text-align: left;
+    color: #ff6b08;
+    margin-left: 120px;
+    padding-top: 20px;
+}
+
+.tt p {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h1 {
+    color: #ff6600;
+}
+/* Phần thông tin liên hệ */
+.tt {
+    text-align: left;
+    color: #ff6b08;
+    margin-left: 120px;
+    padding-top: 20px;
+}
+
+.tt p {
+    margin-bottom: 5px;
+}
+
+/* Footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ff6600; /* Thêm hiệu ứng hover cho liên kết */
+}
+
+.social-links a:hover {
+text-decoration: underline;
+}
