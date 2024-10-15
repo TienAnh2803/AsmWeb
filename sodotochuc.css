@@ -157,6 +157,10 @@ footer h1 {
     margin-left: 15px;
     text-decoration: none;
 }
+.social-links img{
+  width: 50px;
+  margin:15px
+}
 
 .social-links a:hover {
     color: #ff6600; /* Thêm hiệu ứng hover cho liên kết */

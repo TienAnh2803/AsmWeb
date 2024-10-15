@@ -116,6 +116,9 @@ body {
   .LH h2, p{
     margin-left: 100px;
   }
+  .LH form{
+    margin-left: 100px;
+  }
   .LH input{
     background-color: #f8ad52;
     width: 700px;
@@ -142,10 +145,11 @@ body {
   }
   aside {
     padding: 5px;
-    width: calc(30% - 10px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(45% - 10px);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    
   }
-  footer {
+footer {
     background-color: #333;
     color: white;
     text-align: center;
@@ -188,4 +192,8 @@ footer h1 {
 
 .social-links a:hover {
 text-decoration: underline;
+}
+.social-links img{
+  width: 50px;
+  margin:15px
 }
